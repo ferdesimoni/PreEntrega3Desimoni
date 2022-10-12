@@ -1,0 +1,49 @@
+.index-pituquerias {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+
+    .index-titulo {
+        text-align: center;
+        font-size: 60px;
+        padding: 10px;
+        background-color: nth($colores, 2);
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        width: 100%;
+        margin-top: 0;
+
+    }
+    .index-p {
+        width: 50%;
+        margin: 50px auto;
+        text-align: center;
+        font-size: 60px;
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        @media screen and (max-width: 650px) {
+           font-size: 30px;
+
+        }
+    }
+    img {
+        width: 200px;
+        height: 200px;
+        @media screen and (max-width: 650px) {
+            width: 100px;
+            height: 100px;
+ 
+         }
+    }
+    .pituquerias-logo {
+        border-radius: 100px;
+        position: relative;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+

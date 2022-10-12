@@ -1,0 +1,21 @@
+
+.header-nav{
+    .nav-color{
+        background-color:nth($colores,3);
+    }
+    .container-fluid{
+        .nav-img{
+            width: 45px;
+            height: 45px;
+        }
+        .pituquerias-logo {
+            border-radius: 100px;
+            position: relative;
+            margin: 0 auto;
+        }
+        .text-size {
+            font-size: 20px;
+        }
+    }
+
+}

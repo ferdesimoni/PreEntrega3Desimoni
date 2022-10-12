@@ -1,0 +1,21 @@
+footer{
+    margin-top: 100px;
+    background-color:nth($colores,3);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    color: white;
+    
+    .footer-color{
+        color: rgb(182, 182, 182);
+        list-style: none;
+    }
+    
+    .logo-footer{
+        width: 100px;
+        height: 100px;
+    }
+    
+}
+
