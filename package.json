@@ -1,7 +1,7 @@
 {
   "name": "preentrega3desimoni",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina Web dedicada a un emprendimiento de articulos decorativos hechos a mano",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
